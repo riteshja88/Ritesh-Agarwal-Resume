@@ -78,7 +78,7 @@
 
 
 %define page styles using geometry
-\usepackage[a4paper]{geometry}		
+\usepackage[a4paper]{geometry}
 
 % for example, change the margins to 2 inches all round
 \geometry{top=1.75cm, bottom=-.6cm, left=1.5cm, right=1.5cm} 	
@@ -93,7 +93,7 @@
 
 %customize entries left, center and right
 \lhead{}
-\chead{ \small{Ritesh Agarwal $\cdot$ Senior Principal Software Engineer II $\cdot$  Pune, MH, IN $\cdot$  \textcolor{sectcol}{\textbf{riteshja88@gmail.com}}  $\cdot$ +91 9623 126 536}}
+\chead{ \small{Ritesh Agarwal $\cdot$ Principal Software Development Engineer $\cdot$  Pune, MH, IN $\cdot$  \textcolor{emailcol}{\textbf{riteshja88@gmail.com}}  $\cdot$ +91 9623 126 536}}
 \rhead{}
 
 
@@ -140,13 +140,16 @@
 \usepackage{color}
 
 %accent color
-\definecolor{sectcol}{RGB}{0,0,255}
+\definecolor{sectcol}{RGB}{170,108,57}
 
 %dark background color
-\definecolor{bgcol}{RGB}{110,110,110}
+\definecolor{bgcol}{RGB}{67,38,22}
 
 %light background / accent color
 \definecolor{softcol}{RGB}{225,225,225}
+
+%email color
+\definecolor{emailcol}{RGB}{0,0,255}
 
 
 %============================================================================%
@@ -353,10 +356,10 @@
 
 %\vspace{-114pt}
 
-\metasection{Status:}{Pubmatic, Senior Principal Software Engineer II}
-\metasection{Fields:}{Software Development, Cloud Computing, Networking, Storage, Linux Kernel, Programming, FCGI, REST API}
-\metasection{Prefers:}{C, C++, Golang, Python, Linux/UNIX based host and target OS, Git / GitHub, OpenSource}
-\metasection{Activities:}{Hackathons, Technical Workshops, Geek Meetups}
+\metasection{Status:}{Zscaler, Principal Software Development Engineer}
+\metasection{Domain:}{Software Development, Distributed Systems, Networking, SQL, Redis}
+\metasection{Prefers:}{C, C++, Go, Python, Linux, Git, OpenSource}
+\metasection{Activities:}{Weekends with Leetcode}
 
 \vspace{6pt}
 
@@ -375,17 +378,23 @@
 
 %---------------------------------------------------------------------------------------
 %	EXPERIENCE
+%----------------------------------------------------------------------------------------
 
-\cvsection{EXPERIENCE}%----------------------------------------------------------------------------------------
-%March 2019 - Present
-\cveventstart{2019 - Present}{Senior Principal Software Engineer II}{Pubmatic, Pune}
+\cvsection{EXPERIENCE}
+%April 2024 - Present
+\cveventstart{2024 - Present}{Principal Software Development Engineer}{Zscaler, Pune}
+\cveventi{\textbf{Technology Area:} SMCA, Config, PostgreSQL, RAFT}
+\cveventi{\textbf{Achievements:} Independently designed, developed and delivered timely with high quality, multiple customer features leading to NetARR}
+\cveventi{\textbf{Some Notable Contributions:}  Incident Receiver, ZCC EUN, Rule-Attribute-Limit increase, WebSockets-Network-Apps, Domain Fronting, ZSEclipse Proxy Forwarding via HMAC}
+\cveventi{\textbf{Technologies:} C, Gdb, FreeBSD, Event-Based-Programming}
+\cveventend
+
+%March 2019 - April 2024
+\cveventstart{2019 - 2024}{Senior Principal Software Engineer II}{Pubmatic, Pune}
 \cveventi{\textbf{Technology Area:} AdServer, REST API, RealTimeBidding}
 \cveventi{\textbf{Responsibilities:} ORTB Module TeamLead/ScrumMaster, Individual Contributor, Design/Code Reviews, Mentoring, Production Issues}
 \cveventi{\textbf{Some Notable Contributions:} Multiformat support, RedisTimeSeries for Stats analytics, Apache Druid for Stats Analytics v2, Codesonar seamless CI integration, Address Sanitizer in UT, Agile Team Maturity}
 \cveventi{\textbf{Technologies:} C, Go, Java, FCGI, REST API, JSON, Cmocka, Jupyter, OpenRTB, WURFL, NetAcuityGeo DB, Apple IDFA, Apple SKADN, Libclang(JSON library), RedisTimeSeries, AerospikeTimeSeries, Influx, Grafana}
-
-
-
 \cveventend
 %\textcolor{softcol}{\hrule}
 
@@ -419,7 +428,7 @@
 %\textcolor{softcol}{\hrule}
 
 %(May 2014 – May 2015).
-\cveventstart{2014 - 2015}{Research Assistant}{KernelSec Lab, UIC}
+\cveventstart{2014 - 2015}{Research Assistant}{KernelSec Lab, UIC, Chicago}
 \cveventi{\textbf{Technology Area:} Xen Hypervisor, Operating Systems, Asynchronous calls, Events.}
 \cveventi{\textbf{Project:} IPC Subsystem Cleanups}
 \cveventi{Analyse how to cleanup incomplete events that gets posted in the kernel by system calls in the IPC subsystem area.}
@@ -432,7 +441,7 @@
 \newpage
 %
 %(June 2013 – August 2013)
-\cveventstart{2013}{Graduate Summer Intern}{Yahoo! Inc}
+\cveventstart{2013}{Graduate Summer Intern}{Yahoo! Inc, Sunnyvale}
 \cveventi{\textbf{Technology Area:} OpenStack, Cloud Computing, Nicira, Software Defined Networking(SDN), Open vSwitch , REST APIs, Web Services, Python, Python Request Library.}
 \cveventi{\textbf{Project: Monitoring Solution for Nicira NVP / Openstack Networking.}}
 \cveventi{Collect network related statistics from Nicira NVP via Web APIs and Open vSwitch via command line and parse them to be able to facilitate easy analysis of networking related problems for Virtual Machines on the cloud. Integrate with the Internal Monitoring Cloud called YAMAS that mantained time-series and helped plot graphs.}
@@ -441,7 +450,7 @@
 %\textcolor{softcol}{\hrule}
 
 %Jan 2013 - May 2014 (except Summer 2013)
-\cveventstart{2013 - 2014}{Graduate Research Assistant}{RRC, UIC}
+\cveventstart{2013 - 2014}{Graduate Research Assistant}{RRC, UIC, Chicago}
 \cveventi{Job Responsibilities involved variety of work in different areas.}
 \cveventi{Administration for Blade Servers, ZFS Servers, Samba Server, Git server, Mail server, Web Servers, Database Server and Network.}
 \cveventi{Provide support and suggest solutions to researchers/professors for different needs.}
@@ -449,7 +458,7 @@
 %\textcolor{softcol}{\hrule}
 
 %July 2010 - August 2012 
-\cveventstart{2010 - 2012}{Software Development Engineer}{Cisco Systems}
+\cveventstart{2010 - 2012}{Software Development Engineer}{Cisco Systems, Pune}
 \cveventi{\textbf{Technology Area: 3G / UMTS, GTP (GPRS Tunneling Protocol), 4G / LTE Packet core networks, CISCO ASR5000, Carrier Grade Operating System(StarOS), Network Applications.
 }}
 %Job Responsibilities
