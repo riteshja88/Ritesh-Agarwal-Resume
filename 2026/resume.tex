@@ -1,0 +1,167 @@
+\documentclass[letterpaper,11pt]{article}
+
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{fancyhdr}
+\usepackage[english]{babel}
+\usepackage{charter}
+\usepackage[utf8]{inputenc}
+
+\pagestyle{fancy}
+\fancyhf{} % clear all header and footer fields
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+% Adjust margins
+\addtolength{\oddsidemargin}{-0.5in}
+\addtolength{\evensidemargin}{-0.5in}
+\addtolength{\textwidth}{1in}
+\addtolength{\topmargin}{-.5in}
+\addtolength{\textheight}{1.0in}
+
+\urlstyle{same}
+
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+% Sections formatting
+\titleformat{\section}{
+  \vspace{-4pt}\scshape\raggedright\large
+}{}{0em}{}[\color{black}\titlerule \vspace{-5pt}]
+
+%-------------------------
+% Custom commands
+\newcommand{\resumeItem}[1]{
+  \item\small{
+    {#1 \vspace{-2pt}}
+  }
+}
+
+\newcommand{\resumeSubheading}[4]{
+  \vspace{-2pt}\item
+    \begin{tabular*}{0.97\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & #2 \\
+      \textit{\small#3} & \textit{\small #4} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubSubheading}[2]{
+    \item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \textit{\small#1} & \textit{\small #2} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeProjectHeading}[2]{
+    \item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \small#1 & #2 \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubItem}[1]{\resumeItem{#1}\vspace{-4pt}}
+
+\renewcommand\labelitemii{$\vcenter{\hbox{\tiny$\bullet$}}$}
+
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=0.15in, label={}]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+
+%-------------------------------------------
+%%%%%%  RESUME STARTS HERE  %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+\begin{document}
+
+%----------HEADING-----------------
+\begin{center}
+    \textbf{\Huge \scshape Ritesh Agarwal} \\ \vspace{1pt}
+    \small +91 9623126536 $|$ \href{mailto:riteshja88@gmail.com}{\underline{riteshja88@gmail.com}} $|$ 
+    \href{https://linkedin.com/in/riteshja88}{\underline{linkedin.com/in/riteshja88}} $|$
+    \href{https://github.com/riteshja88}{\underline{github.com/riteshja88}}
+\end{center}
+
+
+%-----------SUMMARY-----------------
+\section{Summary}
+  \resumeSubHeadingListStart
+    \resumeItem{A highly motivated and results-oriented professional with a proven track record of success in Software Development and Engineering. Seeking a challenging role where I can leverage my skills in 'C' and 'Software Development Engineering' to contribute in a dynamic organization.}
+  \resumeSubHeadingListEnd
+
+%-----------EXPERIENCE-----------------
+\section{Experience}
+\resumeSubHeadingListStart
+
+	\resumeSubheading
+      {Principal Software Development Engineer}{Apri 2024 - Present}
+      {Zscaler}{Pune, India}
+      \resumeItemListStart
+        \resumeItem{Collaborated with cross-functional teams to define project requirements and deliver multiple high-quality/impact customer-focused features, resulting in a measureable increase of Net Annual Recurring Revenue(NARR).}
+        \resumeItem{Spearheaded engineering initiatives to enhance database component reliability by reducing Recovery Point Objectives (RPO) and Recovery Time Objectives (RTO) through in-depth analysis and benchmarking of industry-standard backup and restore methods.}
+        \resumeItem{Expedited resolution of critical blocker issues across development, release and production (mainline) branches, maintaining continous delivery pipelines and ensuring production stability.}
+        \resumeItem{Streamlined weekly reporting processes by gathering and summarizing team status, enhancing visibility into project health for senior management and cross-functional partners.}
+      \resumeItemListEnd
+
+    \resumeSubheading
+      {Principal Software Development Engineer}{Apri 2024 - Present}
+      {Zscaler}{Pune, India}
+      \resumeItemListStart
+        \resumeItem{Led the development of a new feature that resulted in a 15\% increase in user engagement.}
+        \resumeItem{Mentored junior engineers and conducted code reviews to ensure code quality and adherence to best practices.}
+        \resumeItem{Collaborated with cross-functional teams to define project requirements and deliver high-quality software solutions.}
+      \resumeItemListEnd
+
+    \resumeSubheading
+      {Software Engineer}{Jun 2020 - Oct 2022}
+      {Microsoft}{Redmond, WA}
+      \resumeItemListStart
+        \resumeItem{Developed and maintained software for [Product/Team].}
+        \resumeItem{Contributed to the design and implementation of new features.}
+        \resumeItem{Fixed bugs and improved the performance of existing code.}
+      \resumeItemListEnd
+
+  \resumeSubHeadingListEnd
+
+%-----------EDUCATION-----------------
+\section{Education}
+  \resumeSubHeadingListStart
+    \resumeSubheading
+      {Stanford University}{Sept 2016 - Jun 2020}
+      {Master of Science in Computer Science}{Stanford, CA}
+      \resumeItemListStart
+        \resumeItem{GPA: 3.8/4.0}
+        \resumeItem{Relevant Coursework: Algorithms, Data Structures, Artificial Intelligence, Machine Learning}
+      \resumeItemListEnd
+  \resumeSubHeadingListEnd
+
+%-----------PROJECTS-----------------
+\section{Projects}
+    \resumeSubHeadingListStart
+      \resumeProjectHeading
+          {\textbf{Personal Website} $|$ \emph{HTML, CSS, JavaScript, React}}{Oct 2023 - Present}
+          \resumeItemListStart
+            \resumeItem{Developed a personal website to showcase my portfolio and skills.}
+            \resumeItem{Implemented a responsive design to ensure optimal viewing on all devices.}
+          \resumeItemListEnd
+    \resumeSubHeadingListEnd
+
+%-----------SKILLS-----------------
+\section{Skills}
+  \resumeSubHeadingListStart
+    \resumeSubItem{\textbf{Languages:} Python, Java, C++, JavaScript}
+    \resumeSubItem{\textbf{Frameworks:} React, Node.js, Django, Flask}
+    \resumeSubItem{\textbf{Databases:} MySQL, PostgreSQL, MongoDB}
+    \resumeSubItem{\textbf{Tools:} Git, Docker, Kubernetes, Jenkins}
+  \resumeSubHeadingListEnd
+
+
+\end{document}
